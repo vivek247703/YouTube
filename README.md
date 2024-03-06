@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+Youtube Clone
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,30 +39,28 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Debouncing:
 
-### Code Splitting
+typing slow = 200ms typing fast = 30ms
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Perfomance:
 
-### Analyzing the Bundle Size
+iphone pro max = 14 letter * 1000 = 140000
+with debouncing= 3 API calls * 1000 = 3000
+Debouncing with 200ms
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+if difference between 2 key strokes is <200ms - DECLINE API call
+200ms make an API call
 
-### Making a Progressive Web App
+Cache: time complexity tro search in array = O(n) time complexity tro search in Object = O(1)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[i, ip, iph, iphone]
 
-### Advanced Configuration
+{ i: ip: iph: iphone: }
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
+new Map();
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
